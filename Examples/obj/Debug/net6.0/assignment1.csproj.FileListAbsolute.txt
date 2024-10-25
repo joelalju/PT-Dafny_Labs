@@ -1,0 +1,12 @@
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\assignment1.csproj.AssemblyReference.cache
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\assignment1.GeneratedMSBuildEditorConfig.editorconfig
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\assignment1.AssemblyInfoInputs.cache
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\assignment1.AssemblyInfo.cs
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\assignment1.csproj.CoreCompileInputs.cache
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\assignment1.dll
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\ref\assignment1.dll
+d:\UU\PT-Dafny_Labs\Examples\obj\Debug\net6.0\assignment1.pdb
+d:\UU\PT-Dafny_Labs\Examples\assignment1.deps.json
+d:\UU\PT-Dafny_Labs\Examples\assignment1.dll
+d:\UU\PT-Dafny_Labs\Examples\ref\assignment1.dll
+d:\UU\PT-Dafny_Labs\Examples\assignment1.pdb
