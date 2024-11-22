@@ -14,17 +14,19 @@ method Main()
 
 method checkPlateau(a:array<int>, l:int, u:int) returns (b:bool)
   requires 0 <= l < u < a.Length
-  ensures b == true || b == false
+  ensures (b == true && forall j :: l <= j < u ==> a[j] == a[j+1]) || (b == false && exists j :: l <= j < u && a[j] != a[j+1])
 {
-  var validate, i := true, u - 1;
-  while (i > l)
-    invariant l <= i < u
-    decreases i
+  var validate, i := true, l;
+  while (i < u)
+    invariant l <= i <= u
+    invariant validate ==> forall j :: l <= j < i ==> a[j] == a[j + 1]
+    invariant !validate ==> exists j :: l <= j < i && a[j] != a[j + 1]
+    decreases u - i
   {
-    if  a[i] != a[i - 1] {
+    if  a[i] != a[i + 1] {
       validate := false;
     }
-    i := i - 1;
+    i := i + 1;
   }
   return validate;
 }

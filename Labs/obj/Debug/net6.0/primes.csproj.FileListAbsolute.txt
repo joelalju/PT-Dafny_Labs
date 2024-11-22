@@ -1,0 +1,15 @@
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.csproj.AssemblyReference.cache
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.GeneratedMSBuildEditorConfig.editorconfig
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.AssemblyInfoInputs.cache
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.AssemblyInfo.cs
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.csproj.CoreCompileInputs.cache
+d:\UU\PT-Dafny_Labs\Labs\primes.exe
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.dll
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\ref\primes.dll
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.pdb
+d:\UU\PT-Dafny_Labs\Labs\primes.deps.json
+d:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\primes.genruntimeconfig.cache
+d:\UU\PT-Dafny_Labs\Labs\primes.runtimeconfig.json
+d:\UU\PT-Dafny_Labs\Labs\primes.dll
+d:\UU\PT-Dafny_Labs\Labs\ref\primes.dll
+d:\UU\PT-Dafny_Labs\Labs\primes.pdb

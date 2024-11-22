@@ -1,0 +1,15 @@
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.csproj.AssemblyReference.cache
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.GeneratedMSBuildEditorConfig.editorconfig
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.AssemblyInfoInputs.cache
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.AssemblyInfo.cs
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.csproj.CoreCompileInputs.cache
+d:\UU\PT-Dafny_Labs\Labs\plateau.exe
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.dll
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\ref\plateau.dll
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.pdb
+d:\UU\PT-Dafny_Labs\Labs\plateau.deps.json
+d:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\plateau.genruntimeconfig.cache
+d:\UU\PT-Dafny_Labs\Labs\plateau.runtimeconfig.json
+d:\UU\PT-Dafny_Labs\Labs\plateau.dll
+d:\UU\PT-Dafny_Labs\Labs\ref\plateau.dll
+d:\UU\PT-Dafny_Labs\Labs\plateau.pdb

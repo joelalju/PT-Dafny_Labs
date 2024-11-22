@@ -1,0 +1,15 @@
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.csproj.AssemblyReference.cache
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.GeneratedMSBuildEditorConfig.editorconfig
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.AssemblyInfoInputs.cache
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.AssemblyInfo.cs
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.csproj.CoreCompileInputs.cache
+d:\UU\PT-Dafny_Labs\Labs\sequence.exe
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.dll
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\ref\sequence.dll
+D:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.pdb
+d:\UU\PT-Dafny_Labs\Labs\sequence.deps.json
+d:\UU\PT-Dafny_Labs\Labs\obj\Debug\net6.0\sequence.genruntimeconfig.cache
+d:\UU\PT-Dafny_Labs\Labs\sequence.runtimeconfig.json
+d:\UU\PT-Dafny_Labs\Labs\sequence.dll
+d:\UU\PT-Dafny_Labs\Labs\ref\sequence.dll
+d:\UU\PT-Dafny_Labs\Labs\sequence.pdb
