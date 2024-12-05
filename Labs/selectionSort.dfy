@@ -26,6 +26,35 @@ method Main()
 }
 
 method selectionSort(a:array<int>)
+modifies a
+ensures forall i, j :: 0 <= i < j < a.Length ==> a[i] <= a[j] 
+ensures multiset(a[..]) == old(multiset(a[..]))
 {
-
+  var i, size := 0, a.Length;
+  if size >= 2 {
+    while (i + 1) < size 
+      invariant 0 <= i < size
+      invariant forall k, l :: 0 <= k <= l < a.Length ==> a[k] <= a[l] 
+      invariant multiset(a[..]) == old(multiset(a[..])) 
+      decreases size - i
+    {
+      var j, min := i + 1, i;
+      while j < size
+        invariant 0 <= i < size
+        invariant i <= min < j <= size
+        invariant forall k :: i <= k < j ==> a[min] <= a[k]
+        invariant multiset(a[..]) == old(multiset(a[..]))  
+        decreases size - j
+      {
+        if a[min] > a[j] {
+          min := j;
+        }
+        j := j + 1;
+      }
+      var temp := a[i];
+      a[i] := a[min];
+      a[min] := temp;
+      i := i + 1;
+    }
+  }
 }

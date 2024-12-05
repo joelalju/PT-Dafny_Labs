@@ -20,6 +20,20 @@
 */
 
 method LinearSearch<T>(a : array<T>, P : T -> bool) returns (n : int)
+ensures ((n == -1 && forall j :: 0 <= j < a.Length ==> P(a[j]) == false) ||
+         (( a.Length > n >= 0 && P(a[n]) == true) && forall j :: n < j < a.Length ==> P(a[j]) == false))
 {
-
+  var i, size, pos := 0, a.Length, -1;
+  while i < size 
+    invariant 0 <= i <= size
+    invariant ((pos == -1 && forall j :: 0 <= j < i ==> P(a[j]) == false) ||
+              (i > pos >= 0 && P(a[pos]) == true && forall j :: pos < j < i ==> P(a[j]) == false))
+    decreases size - i
+  {
+    if(P(a[i]) == true) {
+      pos := i;
+    }
+    i := i + 1;
+  }
+  return pos;
 }
