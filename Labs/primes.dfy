@@ -32,9 +32,9 @@ method isPrime(x:int) returns (res:bool)
   }
 }
 
-method nextPrime(x:int) returns (r:int)
+method nextPrime(x:int) returns (r:int) // Fix: You should try to show partial correctness, not total correctness.
   requires x >= 2
-  ensures x < r
+  ensures x < r // Fix: This postcondition is too strong.
   ensures forall j :: x < j < r ==> r%j != 0
 {
   var next := x + 1;
