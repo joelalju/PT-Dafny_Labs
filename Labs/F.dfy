@@ -11,7 +11,7 @@
 // "(1, 2) > (1, 3)", "(1, 2) > (0, 1000)", "(true, 42) > (false, 42)"
 
 function F(x : nat, y : nat) : int
-decreases (if(x%2 != 0) then 1000 - (2*y) else 1000 - x), (if x >= 6 then 1000-(y+3) else 1000 - y)
+decreases (if (x % 2 != 0) then x else 0), (if (x % 2 == 0 && x <= 1000) then 1000 - x else 0) 
 {
   if 1000 <= x then
     x + y
