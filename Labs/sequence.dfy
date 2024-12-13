@@ -14,7 +14,6 @@ method Main()
 
 method sequenceGenerate(n:int,  n_0:int,  n_1:int) returns (sequence:array<int>)
 requires n >= 2
-requires n_0 <= n_1 // Fix: This makes the precondition too strong. You should allow arbitrary seeds.
 ensures sequence.Length == n
 ensures sequence[0] == n_0 && sequence[1] == n_1
 ensures n == 2 || forall j :: 2 <= j < n ==> sequence[j] == sequence[j - 1] + sequence[j - 2]
