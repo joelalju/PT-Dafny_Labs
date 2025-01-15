@@ -20,15 +20,14 @@
 */
 
 method LinearSearch<T>(a : array<T>, P : T -> bool) returns (n : int)
-ensures ((n == -1 && forall j :: 0 <= j < a.Length ==> P(a[j]) == false) ||
-         (( a.Length > n >= 0 && P(a[n]) == true) && forall j :: n < j < a.Length ==> P(a[j]) == false)) // This postcondition is too strong.
-         // There may or may not be an element after the found element that also satisfies the predicate.
+ensures (n == -1 && forall j :: 0 <= j < a.Length ==> P(a[j]) == false) ||
+        ( a.Length > n >= 0 && P(a[n]) == true)
 {
   var i, size, pos := 0, a.Length, -1;
   while i < size 
     invariant 0 <= i <= size
     invariant ((pos == -1 && forall j :: 0 <= j < i ==> P(a[j]) == false) ||
-              (i > pos >= 0 && P(a[pos]) == true && forall j :: pos < j < i ==> P(a[j]) == false))
+              (i > pos >= 0 && P(a[pos]) == true))
     decreases size - i
   {
     if(P(a[i]) == true) {

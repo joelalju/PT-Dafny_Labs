@@ -27,14 +27,14 @@ method Main()
 
 method selectionSort(a:array<int>)
 modifies a
-ensures forall i, j :: 0 <= i < j < a.Length ==> a[i] <= a[j] 
+ensures forall i, j :: 0 <= i <= j < a.Length ==> a[i] <= a[j] 
 ensures multiset(a[..]) == old(multiset(a[..]))
 {
   var i, size := 0, a.Length;
   if size >= 2 {
-    while (i + 1) < size 
-      invariant 0 <= i < size
-      invariant forall k, l :: 0 <= k <= l < a.Length ==> a[k] <= a[l] 
+    while i < size 
+      invariant 0 <= i <= size
+      invariant forall k, l :: 0 <= k <= l < i ==> a[k] <= a[l]
       invariant multiset(a[..]) == old(multiset(a[..])) 
       decreases size - i
     {
